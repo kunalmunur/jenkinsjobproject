@@ -6,6 +6,20 @@ public class orgTest {
 	
 	@Test
 	public void createOrgTest() {
+		
+		String url = System.getProperty("url");
+		String browser = System.getProperty("browser");
+		String userName = System.getProperty("username");
+		String password = System.getProperty("password");
+		
+		
+		System.out.println(url);
+		System.out.println(browser);
+		System.out.println(userName);
+		System.out.println(password);
+		
+		
+		
 		System.out.println("execute createOrgTest");
 	}
      @Test
